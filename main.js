@@ -1,3 +1,4 @@
+// callback practices from here -->
 const fetch = require('node-fetch')
 let root = 'https://jsonplaceholder.typicode.com/todos/1'
 
@@ -20,7 +21,7 @@ imgDownload(root, callback);
 
 console.log("download started");
 
-
+// promise practices from here-->
 const promise1 =  new Promise((resolve,reject) => {
     setTimeout(resolve, 500, 'first value');
 });
@@ -73,7 +74,7 @@ Promise.race([promise1, promise3,promise2]).then(function(value) {
 
 
 
-// generator functions with promises
+// generator functions with promises practices from here -->
 /* Using a generator in combination with a Promise will allow us to write asynchronous code that feels like synchronous code.
 What we want to do is wait for a promise to resolve and then pass the resolved value back into our generator in the .next() call.
  */

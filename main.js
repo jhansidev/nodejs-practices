@@ -98,4 +98,4 @@ console.log(val1);
 val1.value.then(() => {
     console.log(asyncFunc.next());
 })
-// Object { value: "our value is... 2", done: false }
+// Object { value: "our value is... <result data given>, done: false }

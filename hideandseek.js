@@ -8,9 +8,14 @@ for (var i = 0; i < titles.length; i++) {
     var evt = document.createEvent("mouseEvent");
     evt.initEvent("click", true, false);
     title.dispatchEvent(evt);
+    title.style.color = "red";
 }
 
+var content = document.getElementsByTagName('p');
 
+for (var i=0; i<content.length;i++){
+    content[i].style.color = "darkcyan";
+}
 
 function onClick(evt) {
     var headerClicked = evt.currentTarget;

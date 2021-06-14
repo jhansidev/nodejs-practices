@@ -28,22 +28,22 @@ function onClick(evt) {
 }
 
 // list creation using DOM operations
-var ul = document.createElement('ul');
+var ol = document.createElement('ol');
 // styling ul
-ul.innerHTML = "Web Technologies:"
+ol.innerHTML = "Web Technologies:"
 
 
-var liItem1 = document.createElement('ol');
+var liItem1 = document.createElement('li');
 liItem1.innerHTML = "HTML";
-var liItem2 = document.createElement('ol');
+var liItem2 = document.createElement('li');
 liItem2.innerHTML = "CSS";
-var liItem3 = document.createElement('ol');
+var liItem3 = document.createElement('li');
 liItem3.innerHTML = "Javascript";
 
 var content = document.querySelector('#list');
-content.appendChild(ul);
+content.appendChild(ol);
 
-var ulcontent = document.querySelector('ul');
+var ulcontent = document.querySelector('ol');
 ulcontent.appendChild(liItem1);
 ulcontent.appendChild(liItem2);
 ulcontent.appendChild(liItem3);

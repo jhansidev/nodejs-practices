@@ -26,3 +26,21 @@ function onClick(evt) {
     relatedDiv.setAttribute("style",
         isCollapsed ? "" :"display: none");
 }
+
+// list creation using DOM operations
+var ul = document.createElement('ul');
+
+var liItem1 = document.createElement('li');
+liItem1.innerHTML = "HTML";
+var liItem2 = document.createElement('li');
+liItem2.innerHTML = "CSS";
+var liItem3 = document.createElement('li');
+liItem3.innerHTML = "Javascript";
+
+var content = document.querySelector('#list');
+content.appendChild(ul);
+
+var ulcontent = document.querySelector('ul');
+ulcontent.appendChild(liItem1);
+ulcontent.appendChild(liItem2);
+ulcontent.appendChild(liItem3);

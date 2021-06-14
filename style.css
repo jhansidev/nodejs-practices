@@ -1,0 +1,17 @@
+body {
+    font-family: Verdana, Arial, sans-serif;
+    margin-left: 24px;
+}
+
+h2 {
+    cursor: pointer;
+    color: red;
+}
+
+.mono {
+    font-family: monospace;
+}
+
+p{
+ color: darkcyan;
+}

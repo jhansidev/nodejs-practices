@@ -54,6 +54,7 @@ ulcontent.style.color = "darkcyan";
 ulcontent.setAttribute('type','I');
 
 // js to add new list on web
+
 var reset = document.createElement('input');
 var resetbtn = document.querySelector('body');
 resetbtn.appendChild(reset);
@@ -67,5 +68,5 @@ additems.onclick=function(){
     var li = document.createElement('li');
     li.innerHTML=document.getElementById("todo").value;
     todoList.appendChild(li);
-    document.getElementById("todo").value=" ";
+
 }

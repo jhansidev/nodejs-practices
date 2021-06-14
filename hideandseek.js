@@ -64,10 +64,9 @@ reset.setAttribute("value","reset the input") */
 var todoList=document.getElementById('todoList');
 var additems=document.getElementById('addTodo');
 
-additems.onclick=function(){
+additems.onclick=function() {
     var li = document.createElement('li');
-    li.innerHTML=document.getElementById("todo").value;
+    li.innerHTML = document.getElementById("todo").value;
     todoList.appendChild(li);
-
-    document.getElementById('todo').reset();
+    document.getElementById("todo").value = " ";
 }

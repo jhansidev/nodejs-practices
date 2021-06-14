@@ -50,3 +50,4 @@ ulcontent.appendChild(liItem3);
 // styling list items
 ulcontent.style.color = "red";
 ulcontent.style.fontFamily = "Arial";
+ulcontent.setAttribute('type','I');

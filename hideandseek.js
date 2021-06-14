@@ -33,11 +33,11 @@ var ul = document.createElement('ul');
 ul.innerHTML = "Web Technologies:"
 
 
-var liItem1 = document.createElement('li');
+var liItem1 = document.createElement('ol');
 liItem1.innerHTML = "HTML";
-var liItem2 = document.createElement('li');
+var liItem2 = document.createElement('ol');
 liItem2.innerHTML = "CSS";
-var liItem3 = document.createElement('li');
+var liItem3 = document.createElement('ol');
 liItem3.innerHTML = "Javascript";
 
 var content = document.querySelector('#list');

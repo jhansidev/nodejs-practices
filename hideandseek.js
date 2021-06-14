@@ -68,6 +68,6 @@ additems.onclick=function(){
     var li = document.createElement('li');
     li.innerHTML=document.getElementById("todo").value;
     todoList.appendChild(li);
-    document.getElementById("todo").reset();
 
+    document.getElementById('todo').reset();
 }

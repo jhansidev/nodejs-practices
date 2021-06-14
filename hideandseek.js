@@ -31,7 +31,7 @@ function onClick(evt) {
 var ul = document.createElement('ul');
 // styling ul
 ul.innerHTML = "Web Technologies:"
-ul.style.color ="red";
+
 
 var liItem1 = document.createElement('li');
 liItem1.innerHTML = "HTML";
@@ -48,4 +48,4 @@ ulcontent.appendChild(liItem1);
 ulcontent.appendChild(liItem2);
 ulcontent.appendChild(liItem3);
 // styling list items
-ulcontent.style.color = "cyan";
+ulcontent.style.color = "red";

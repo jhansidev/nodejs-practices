@@ -29,6 +29,9 @@ function onClick(evt) {
 
 // list creation using DOM operations
 var ul = document.createElement('ul');
+// styling ul
+ul.innerHTML = "Web Technologies:"
+ul.style.color ="red";
 
 var liItem1 = document.createElement('li');
 liItem1.innerHTML = "HTML";
@@ -44,3 +47,5 @@ var ulcontent = document.querySelector('ul');
 ulcontent.appendChild(liItem1);
 ulcontent.appendChild(liItem2);
 ulcontent.appendChild(liItem3);
+// styling list items
+ulcontent.style.display = "none";

@@ -55,11 +55,11 @@ ulcontent.setAttribute('type','I');
 
 // js to add new list on web
 
-var reset = document.createElement('input');
+/*var reset = document.createElement('input');
 var resetbtn = document.querySelector('body');
 resetbtn.appendChild(reset);
 reset.setAttribute("type","reset");
-reset.setAttribute("value","reset the input")
+reset.setAttribute("value","reset the input") */
 
 var todoList=document.getElementById('todoList');
 var additems=document.getElementById('addTodo');
@@ -68,5 +68,6 @@ additems.onclick=function(){
     var li = document.createElement('li');
     li.innerHTML=document.getElementById("todo").value;
     todoList.appendChild(li);
+    document.getElementById("todo").reset();
 
 }

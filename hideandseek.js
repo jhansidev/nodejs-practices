@@ -48,4 +48,4 @@ ulcontent.appendChild(liItem1);
 ulcontent.appendChild(liItem2);
 ulcontent.appendChild(liItem3);
 // styling list items
-ulcontent.style.display = "none";
+ulcontent.style.color = "cyan";

@@ -10,6 +10,8 @@ for (var i = 0; i < titles.length; i++) {
     title.dispatchEvent(evt);
 }
 
+
+
 function onClick(evt) {
     var headerClicked = evt.currentTarget;
     var relatedDiv = headerClicked.nextElementSibling;

@@ -42,12 +42,13 @@ liItem3.innerHTML = "Javascript";
 
 var content = document.querySelector('#list');
 content.appendChild(ol);
+content.style.color = "blue";
+
 
 var ulcontent = document.querySelector('ol');
 ulcontent.appendChild(liItem1);
 ulcontent.appendChild(liItem2);
 ulcontent.appendChild(liItem3);
 // styling list items
-ulcontent.style.color = "red";
-ulcontent.style.fontFamily = "Arial";
+ulcontent.style.color = "darkcyan";
 ulcontent.setAttribute('type','I');

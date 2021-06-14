@@ -5,13 +5,9 @@ body {
 
 h2 {
     cursor: pointer;
-    color: red;
 }
 
 .mono {
     font-family: monospace;
 }
 
-p{
- color: darkcyan;
-}

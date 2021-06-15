@@ -11,3 +11,6 @@ h2 {
     font-family: monospace;
 }
 
+.errorMessage{
+    color: red;
+}

@@ -65,8 +65,16 @@ var todoList=document.getElementById('todoList');
 var additems=document.getElementById('addTodo');
 
 additems.onclick=function() {
-    var li = document.createElement('li');
-    li.innerHTML = document.getElementById("todo").value;
-    todoList.appendChild(li);
-    document.getElementById("todo").value = " ";
+    let inputValue = document.getElementById('todo').value;
+    if (inputValue != ""){
+        var li = document.createElement('li');
+        li.innerHTML = document.getElementById("todo").value;
+        todoList.appendChild(li);
+        // resetting the input feild immediately
+        document.getElementById("todo").value = "";
+    }
+    else {
+        document.getElementById('errorMessage').innerText = "Please enter the valid course";
+    }
+
 }
